@@ -1,7 +1,7 @@
-REM 'program to calculate perimerer of rectangle
+REM 'program to calculate perimeter of rectangle
 CLS
 INPUT "Enter length : "; L
 INPUT "Enter breadth : "; B
 P = 2 * (L + B)
-PRINT "The perimerer = "; P
+PRINT "The perimeter = "; P
 END

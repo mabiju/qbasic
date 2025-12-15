@@ -1,4 +1,4 @@
-REM 'program to calculate simple intrest and amount
+REM 'program to calculate simple interest and amount
 CLS
 INPUT "Enter principal amount : " ; P
 INPUT "Enter time : " ; T                   
@@ -8,6 +8,3 @@ AMT= P+ INTEREST
 PRINT "The interest = " ; INTEREST
 PRINT "The amount = " ; AMT
 END
-
-
-
