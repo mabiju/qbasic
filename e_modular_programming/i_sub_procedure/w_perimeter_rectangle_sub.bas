@@ -1,0 +1,11 @@
+REM 'program to find the perimeter of a rectangle [Hint: 2(L+B)]
+DECLARE SUB PERIMETER (L, B)
+CLS
+INPUT "ENTER LENGTH"; L
+INPUT "ENTER BREADTH"; B
+CALL PERIMETER(L, B)
+END
+SUB PERIMETER (L, B)
+    P = 2 * (L + B)
+    PRINT "PERIMETER OF RECTANGLE "; P
+END SUB

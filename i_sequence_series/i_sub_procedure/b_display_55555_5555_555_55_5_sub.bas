@@ -1,0 +1,12 @@
+REM 'program to display the series 55555, 5555, 555, 55, 5
+DECLARE SUB SERIES()
+CLS
+CALL SERIES
+END
+SUB SERIES
+    A = 55555
+    FOR I = 1 TO 5
+        PRINT A;
+        A = A \ 10
+    NEXT I
+END SUB
