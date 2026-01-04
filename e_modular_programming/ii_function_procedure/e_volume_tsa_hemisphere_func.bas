@@ -1,0 +1,16 @@
+REM 'Using Function…… End Function, write a program to calculate volume and total surface area of hemisphere. [ volume = 2/3 πR3] [TSA=3πR2]
+DECLARE FUNCTION VOLUME (R)
+DECLARE FUNCTION TSAREA (R)
+CLS
+INPUT "ENTER RADIUS"; R
+PRINT "VOLUME OF HEMISPHERE "; VOLUME(R)
+PRINT "TOTAL SURFACE AREA OF HEMISPHERE "; TSAREA(R)
+END
+
+FUNCTION VOLUME (R)
+    VOLUME = (2 / 3) * 3.14 * R ^ 3
+END FUNCTION
+
+FUNCTION TSAREA (R)
+    TSAREA = 3 * 3.14 * R ^ 2
+END FUNCTION

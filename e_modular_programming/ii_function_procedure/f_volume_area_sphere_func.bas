@@ -1,0 +1,17 @@
+REM 'function procedure to calculate volume and area of sphere. [A=4πR2, V = (4 / 3) * 3.14 * R ^ 3]
+DECLARE FUNCTION VOLUME (R)
+DECLARE FUNCTION AREA (R)
+
+CLS
+INPUT "ENTER RADIUS"; R
+PRINT "VOLUME OF SPHERE "; VOLUME(R)
+PRINT "AREA OF SPHERE "; AREA(R)
+END
+
+FUNCTION VOLUME (R)
+    VOLUME = (4 / 3) * 3.14 * R ^ 3
+END FUNCTION
+
+FUNCTION AREA (R)
+    AREA = 4 * 3.14 * R ^ 2
+END FUNCTION

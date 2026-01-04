@@ -1,0 +1,12 @@
+REM 'program using Function Module to calculate and print the volume of a box. [ V=L*B*H] [SLC 2066]
+DECLARE FUNCTION VOLUME (L, B, H)
+CLS
+INPUT "ENTER LENGTH"; L
+INPUT "ENTER BREADTH"; B
+INPUT "ENTER HEIGHT"; H
+PRINT "VOLUME OF CUBOID  "; VOLUME(L, B, H)
+END
+
+FUNCTION VOLUME (L, B, H)
+    VOLUME = L * B * H
+END FUNCTION

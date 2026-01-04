@@ -1,0 +1,12 @@
+REM 'to calculate loss percentage using sub procedure
+DECLARE SUB LOSSP (CP, SP)
+CLS
+INPUT "ENTER COST PRICE"; CP
+INPUT "ENTER SELLING PRICE"; SP
+CALL LOSSP(CP, SP)
+END
+
+SUB LOSSP (CP, SP)
+    LP = ((CP - SP) / CP) * 100
+    PRINT "LOSS PERCENTAGE="; LP
+END SUB

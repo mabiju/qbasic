@@ -1,0 +1,11 @@
+REM 'user defined function using FUNCTION……END FUNCTION to calculate volume of cylinder. [Hint: vol= Pr2h]
+DECLARE FUNCTION VOLUME (R, H)
+CLS
+INPUT "ENTER RADIUS"; R
+INPUT "ENTER HEIGHT"; H
+PRINT "VOLUME OF CYLINDER "; VOLUME(R, H)
+END
+
+FUNCTION VOLUME (R, H)
+    VOLUME = 3.14 * R ^ 2 * H
+END FUNCTION
