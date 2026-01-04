@@ -1,0 +1,11 @@
+REM 'square root of a given number using SUB…..END SUB.
+DECLARE SUB SQROOT (N)
+CLS
+INPUT "ENTER ANY NUMBER"; N
+CALL SQROOT(N)
+END
+
+SUB SQROOT (N)
+    S = N ^ (1 / 2)
+    PRINT "SQUARE ROOT OF NUMBER"; S
+END SUB

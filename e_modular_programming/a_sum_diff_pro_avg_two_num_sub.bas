@@ -1,0 +1,30 @@
+REM 'program using SUB…..END SUB to find the sum, difference, product and average of any two numbers given by the user.
+DECLARE SUB SUM (A, B)
+DECLARE SUB DIFF (A, B)
+DECLARE SUB PROD (A, B)
+DECLARE SUB AVERAGE (A, B)
+CLS
+
+INPUT "ENTER FIRST NUMBER"; A
+INPUT "ENTER SECOND NUMBER"; B
+CALL SUM(A, B)
+CALL DIFF(A, B)
+CALL PROD(A, B)
+CALL AVERAGE(A, B)
+END
+SUB SUM (A, B)
+    S = A + B
+    PRINT "SUM OF TWO NUMBERS"; S
+END SUB
+SUB DIFF (A, B)
+    D = A - B
+    PRINT "DIFFERENCE OF TWO NUMBERS"; D
+END SUB
+SUB PROD (A, B)
+    P = A * B
+    PRINT "PRODUCT OF TWO NUMBERS"; P
+END SUB
+SUB AVERAGE (A, B)
+    AV = (A + B) / 2
+    PRINT "AVERAGE OF TWO NUMBERS"; AV
+END SUB

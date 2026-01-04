@@ -1,0 +1,19 @@
+REM 'program using SUB……END SUB to find the area and perimeter of rectangle
+DECLARE SUB AREA (L, B)
+DECLARE SUB PERIMETER (L, B)
+CLS
+INPUT "ENTER LENGTH"; L
+INPUT "ENTER BREADTH"; B
+CALL AREA(L, B)
+CALL PERIMETER(L, B)
+END
+
+SUB AREA (L, B)
+    A = L * B
+    PRINT "AREA OF RECTANGLE "; A
+END SUB
+
+SUB PERIMETER (L, B)
+    P = 2 * (L + B)
+    PRINT "PERIMETER OF RECTANGLE "; P
+END SUB
